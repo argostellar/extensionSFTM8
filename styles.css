@@ -1,11 +1,13 @@
 .main {
 	display: flex;
+	flex-direction: column;
 	justify-content: space-around;
 	width: 200px;
 	height: 100px;
 }
 
 .main__title {
+	align-self: center;
 	font-size: 15px;
 	font-weight: 600;
 }
